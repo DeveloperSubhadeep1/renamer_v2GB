@@ -1,4 +1,4 @@
-e# Copyright (C) 2023 Pathan_botz
+# e# Copyright (C) 2023 Pathan_botz
 #Licensed under the  AGPL-3.0 License;
 #you may not use this file except in compliance with the License.
 #Author Arshlan
