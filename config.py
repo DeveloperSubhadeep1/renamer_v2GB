@@ -1,4 +1,4 @@
-# Copyright (C) 2023 Pathan_botz
+e# Copyright (C) 2023 Pathan_botz
 #Licensed under the  AGPL-3.0 License;
 #you may not use this file except in compliance with the License.
 #Author Arshlan
@@ -9,19 +9,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "26058820")
-    API_HASH  = os.environ.get("API_HASH", "cf34db4ed69493d377a2516056711cb6")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6910550441:AAHc1UaULbAUD-iUMh4HpAaCzY8MBt6bdn4") 
+    API_ID    = os.environ.get("API_ID", "27972068")
+    API_HASH  = os.environ.get("API_HASH", "6e7e2f5cdddba536b8e603b3155223c1")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7103264571:AAHQABT_b98LJ_tklhwsTLSaPU6OibhTocE") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Dxbotz")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Order:order@cluster0.aitjsft.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://text1:text1@cluster0.0lnolxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/72b80c41518846d8bc7e7.jpg https://telegra.ph/file/0c987464eaee927e2d3df.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5683891175').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001965248013") 
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5546051083').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
@@ -41,13 +41,13 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Flipkartlootzs</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/pathan_botz>𝙿𝙰𝚃𝙷𝙰𝙽_𝙱𝙾𝚃𝚉</a> 
-├👨‍💻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁 : <a href=https://t.me/Flipkartlootzs>𝙿𝙰𝚃𝙷𝙰𝙽</a>
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/Devi_subha>Devil Programmer</a> 
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
 ├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://t.me/Pathans_cinema>𝙿𝙰𝚃𝙷𝙰𝙽</a></b>     
 ╰───────────────⍟ """
+    # ├👨‍💻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁 : <a href=https://t.me/Flipkartlootzs>𝙿𝙰𝚃𝙷𝙰𝙽</a>
 
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
