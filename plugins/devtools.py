@@ -76,7 +76,7 @@ async def eval(client, message):
     final_output += "<b>OUTPUT</b>:\n"
     final_output += f"<code>{evaluation.strip()}</code> \n"
 
-    if len(final_output) > 4096:
+    if len(final_output) > 8192:
         with io.BytesIO(str.encode(final_output)) as out_file:
             out_file.name = "eval.text"
             await reply_to_.reply_document(
